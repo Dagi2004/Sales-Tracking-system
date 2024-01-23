@@ -1,0 +1,37 @@
+Step 1: Start
+
+Step 2: Output a welcome message.
+
+Step 3: Prompt the user to enter phone numbers for four people and store them in an array.
+
+Step 4: Prompt the user to enter product IDs for five products, checking for duplicate IDs and handling any duplicates.
+
+Step 5: Prompt the user to enter the number of days (between 1 and 30) for which sales data will be entered.
+
+Step 6: If the input for the number of days is invalid, output an error message and terminate the program.
+
+Step 7: Initialize arrays and variables for storing sales data and calculating totals.
+
+Step 8: Loop for each day:
+    a. Accept sales data from the user for each day, salesperson, and product.
+
+Step 9: Calculate the monthly summary of sales for each salesperson and product.
+
+Step 10: Calculate the total sales per person and per product.
+
+Step 11: Calculate the total sales across all products.
+
+Step 12: Calculate the bonus for each salesperson based on their total sales.
+
+Step 13: Display a table showing the monthly sales for each product and salesperson, as well as the total sales per product, total sales per person, and bonuses.
+
+Step 14: Ask the user if they want to search for a particular product or salesperson.
+
+Step 15: If user wants to search:
+    a. Prompt them to enter a product number or salesperson number.
+    b. Search for and display the monthly sales and total sales for the specified product or salesperson.
+    c. If not found, display an appropriate message.
+
+Step 16: display Thank the user for using the app and terminate the program.
+
+Step 17: End
