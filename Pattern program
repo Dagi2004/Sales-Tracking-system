@@ -1,0 +1,43 @@
+#include<iostream>
+
+using namespace std;
+
+int main() {
+     int size;
+     cout << "Enter the height(odd number between 1 and 35): ";
+    cin >> size;
+    if (size % 2 == 0  && size < 1 &&  size > 35)
+    {
+        cout << "Invalid input!! Please, run again!" << endl;
+        return 1;
+    }
+    int width = 1;
+    int height = size;
+
+    for(int i = 1; i <= size; i++) {
+      char ch = 'A';
+      for(int j = 0; j <= size; j++) {
+        if(j >= width && j <= height) {
+          cout  << ch << " ";
+          if(j <= size/2)
+            ch++;
+          else 
+           ch--;
+        }
+        else
+          cout << "  ";
+      }
+      if(i <= size/2) {
+        width++;
+        height--;
+      }
+      else {
+        width--;
+        height++;
+      }
+      cout << endl;
+    }
+
+
+return 0;
+}
