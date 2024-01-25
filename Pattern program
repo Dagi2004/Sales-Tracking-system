@@ -6,7 +6,7 @@ int main() {
      int size;
      cout << "Enter the height(odd number between 1 and 35): ";
     cin >> size;
-    if (size % 2 == 0  && size < 1 &&  size > 35)
+    if (size % 2 == 0  || size < 1 || size > 35)
     {
         cout << "Invalid input!! Please, run again!" << endl;
         return 1;
